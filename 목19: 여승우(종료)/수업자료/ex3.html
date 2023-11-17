@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- body 와 head 의 상위, 최상위태그인 html 로 묶음 -->
+<html >
+  <head>
+    <meta charset="utf-8">
+    <style> 
+      body{text-align: center}
+      table{width: 70%;
+        table-layout: fixed;
+        border-collapse:collapse ;
+        margin: auto;
+      }
+      table td{height: 55px;}
+    </style>
+  </head>
+
+<h2 id = "timeTable">테이블 익숙해지기</h2>
+  <p>
+    <table border = "1">
+      <caption> 여승우 </caption>
+      <thead><tr> <th></th><th>월</th><th>화</th><th>수</th><th>목</th><th>금</th></tr> </thead>
+      <tbody>
+        <tr><td>1</td> <td></td> <td></td> <td rowspan="2">A</td> <td></td> <td rowspan="2">B</td></tr>
+        <tr><td>2</td> <td></td> <td></td> <td></td>
+        <tr><td>3</td> <td rowspan="2">C</td><td></td><td>B</td><td></td><td>A</td></tr>
+        <tr><td>4</td> <td></td><td></td><td></td><td></td></tr>
+        <tr><td>5</td> <td rowspan="2">F</td><td></td><td rowspan="2">D</td><td></td><td></td></tr>
+        <tr><td>6</td> <td></td></td><td></td><td>C</td></tr>
+        <tr><td>7</td> <td rowspan="2">H</td><td></td><td rowspan="2">E</td><td></td><td>D</td></tr>
+        <tr><td>8</td> <td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </p>
