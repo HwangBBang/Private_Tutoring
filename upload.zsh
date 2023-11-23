@@ -6,7 +6,7 @@ echo ' add completed'
 
 git commit -m "Upload"
 wait
-ehco 'commit completed'
+echo 'commit completed'
 
 git push origin main
 wait 
