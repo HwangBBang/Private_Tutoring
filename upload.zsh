@@ -8,6 +8,6 @@ git commit -m "Upload"
 wait
 echo 'commit completed'
 
-git push origin main
+git push origin master
 wait 
 echo 'push completed'
