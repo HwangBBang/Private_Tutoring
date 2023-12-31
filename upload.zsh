@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git pull origin master
+git pull --no-rebase origin master
 wait
 echo 'pull completed'
 
