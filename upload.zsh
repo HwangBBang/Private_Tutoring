@@ -1,5 +1,9 @@
 #!/bin/sh
 
+git pull origin master
+wait
+echo 'pull completed'
+
 git add --all
 wait
 echo ' add completed'
